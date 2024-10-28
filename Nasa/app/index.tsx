@@ -1,15 +1,20 @@
-import { Text, View } from "react-native";
+import React from "react";
+import { SafeAreaView, StyleSheet } from "react-native";
+import Home from './views/Home';
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+function App(): JSX.Element {
+    return(
+        <SafeAreaView style={styles.container}>
+            <Home/>
+        </SafeAreaView>
+    );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: 'rgba(7,26,93,255)',
+    },
+});
+
+export default App;
