@@ -1,5 +1,5 @@
 // Imports de Funcionalidades / Bibliotecas
-import { StyleSheet, Platform, View, Text, Button, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import { useEffect, useState } from 'react'; // Sirve para declarar variables
 import { Audio } from "expo-av";
 
