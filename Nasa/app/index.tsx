@@ -1,5 +1,6 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
+
 import Home from './views/Home';
 
 function App(): JSX.Element {
