@@ -5,6 +5,7 @@ import { format,sub } from 'date-fns';
 import fetchApi from '../../utils/fetch';
 import Header from '../../components/Header';
 import ImagenHoy from '../../components/ImagenHoy';
+import ImagenesUltimos5Dias from '../../components/ImagenesUltimos5Dias';
 import { PostImage } from '../../types';
 
 const Home = () => {
@@ -54,13 +55,14 @@ const Home = () => {
     // Mostramos lo que obtenemos de la llamada a la API en una constante de estado local
     // (ya no hace falta porque sabemos que funciona)
     // console.log(imagenHoy);
-    console.log(imagenesUltimos5Dias);
+    // console.log(imagenesUltimos5Dias);
     
     // Colocamos nuestros componentes
     return (
         <View style={styles.container}>
             <Header />
             <ImagenHoy {...imagenHoy}/>
+            <ImagenesUltimos5Dias postImages={imagenesUltimos5Dias}/>
         </View>
     )
 };
