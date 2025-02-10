@@ -1,3 +1,5 @@
 # Probando_ReactNative
 
-He realizado una aplicación POMODORO visible en /Pomodoro
+En este repositorio se encuentran mis primeras aplicaciones desarrolladas utilizando React Native.
+
+Para ello, he seguido manuales y diversos tutoriales en YouTube.
